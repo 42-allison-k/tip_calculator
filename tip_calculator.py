@@ -14,7 +14,7 @@ def get_cost():
     return cost_food
 
 
-#finction to get the number of people in the party
+#function to get the number of people in the party
 def get_num_people():
     is_int=False
     #to ensure an invalid value can not be entered
@@ -46,7 +46,7 @@ cost_food=float(get_cost())
 sales_tax=.053
 num_people=int(get_num_people())
 
-# asks the user how much of a tip they would like to leave and calculates the total for each person
+# asking the user how much of a tip they would like to leave and calculating the total for each person
 # tip is in the function so it is a value that can be changed later
 def calculate_tip():
     tip=float(get_tip())
@@ -58,7 +58,7 @@ def calculate_tip():
 calculate_tip()
 
 #asking the user if they would like to calculate a new tip value
-new_tip=input('Would you like to calculate a different tip?')
+new_tip=input('Would you like to calculate a different tip? (yes/no)')
 
 #running the calculate function with a new tip value input until the user anwsers no 
 while new_tip=='yes':
